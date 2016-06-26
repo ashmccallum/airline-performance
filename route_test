@@ -1,0 +1,9 @@
+routes = [{"depart": "LHR", "arrive": "JFK"}]
+
+
+# Get 1 months worth of flight data for 1 route
+for route in routes:
+    depature_airport = route["depart"]
+    arrival_airport = route["arrive"]
+
+    print "depature_airport: " + depature_airport + ", arrival_airport: " + arrival_airport
